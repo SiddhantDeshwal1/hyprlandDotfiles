@@ -1,0 +1,79 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", sans-serif;
+  font-size: 20px;
+}
+
+#waybar {
+  background: #000000; /* Changed to black */
+  color: #ffffff;
+}
+
+#clock {
+  color: #ffffff;
+}
+
+#tray {
+  padding-left: 4px;
+}
+
+#workspaces button {
+  color: #737373;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 0px;
+}
+
+#workspaces button:hover {
+  background-color: #262626;
+}
+
+#workspaces button.active {
+  color: #84cc16;
+}
+
+#window {
+  color: #ffffff;
+}
+
+#network {
+  color: #3b82f6;
+  margin-right: 8px;
+}
+
+#memory {
+  color: #d946ef;
+  margin-right: 4px;
+}
+
+#cpu {
+  color: #0ea5e9;
+  margin-right: 4px;
+}
+
+#temperature {
+  color: #eab308;
+  margin-right: 4px;
+}
+
+#custom-powermenu {
+  color: #f43f5e;
+}
+
+/* Style for output volume muted */
+#pulseaudio.output.muted {
+  color: red;
+}
+
+/* Style for microphone muted */
+#pulseaudio.mic.source-muted {
+  color: red;
+}
+
+/* Optional: normal state */
+#pulseaudio.output {
+  color: #14b8a6;
+}
+
+#pulseaudio.mic {
+  color: #14b8a6;
+}

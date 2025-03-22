@@ -1,0 +1,10 @@
+/home/siddhantdeshwal/competitiveProgramming/editor/target/release/deps/libwayland_sys-449bb89bfecb1133.rmeta: /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/lib.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/common.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/client.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/server.rs
+
+/home/siddhantdeshwal/competitiveProgramming/editor/target/release/deps/libwayland_sys-449bb89bfecb1133.rlib: /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/lib.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/common.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/client.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/server.rs
+
+/home/siddhantdeshwal/competitiveProgramming/editor/target/release/deps/wayland_sys-449bb89bfecb1133.d: /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/lib.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/common.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/client.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/server.rs
+
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/lib.rs:
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/common.rs:
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/client.rs:
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/wayland-sys-0.29.5/src/server.rs:

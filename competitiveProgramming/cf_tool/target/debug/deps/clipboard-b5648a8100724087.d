@@ -1,0 +1,10 @@
+/home/siddhantdeshwal/competitiveProgramming/cf_tool/target/debug/deps/libclipboard-b5648a8100724087.rmeta: /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/lib.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/common.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/x11_clipboard.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/nop_clipboard.rs
+
+/home/siddhantdeshwal/competitiveProgramming/cf_tool/target/debug/deps/libclipboard-b5648a8100724087.rlib: /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/lib.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/common.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/x11_clipboard.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/nop_clipboard.rs
+
+/home/siddhantdeshwal/competitiveProgramming/cf_tool/target/debug/deps/clipboard-b5648a8100724087.d: /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/lib.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/common.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/x11_clipboard.rs /home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/nop_clipboard.rs
+
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/lib.rs:
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/common.rs:
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/x11_clipboard.rs:
+/home/siddhantdeshwal/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clipboard-0.5.0/src/nop_clipboard.rs:

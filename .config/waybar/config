@@ -1,0 +1,142 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-bottom": 0,
+
+  "modules-left": [
+    "clock",
+    "custom/separator",
+    "tray"
+  ],
+
+  "modules-center": [
+    "hyprland/window"
+  ],
+
+  "modules-right": [
+    "memory",
+    "cpu",
+    "pulseaudio#output",
+    "pulseaudio#mic",
+    "battery",
+    "network#speed",
+    "custom/separator",
+    "custom/powermenu"
+  ],
+
+  "clock": {
+    "format": " 󰸗  {:%H:%M:%S} ",
+    "interval": 1,
+    "tooltip": true,
+    "tooltip-format": "{:%d %B %H:%M}"
+  },
+
+  "custom/separator": {
+    "exec": "echo \"|\"",
+    "format": "{}"
+  },
+
+  "tray": {
+    "icon-size": 20,
+    "spacing": 8
+  },
+
+  "hyprland/window": {
+    "format": "  {}  "
+  },
+
+  "memory": {
+    "format": "  󰫗 {}%  ",
+    "tooltip": false
+  },
+
+  "cpu": {
+    "format": " {usage}%  ",
+    "tooltip": false
+  },
+
+  "pulseaudio#output": {
+    "format": "{icon}{volume}%  ",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-bluetooth-muted": " {icon}",
+    "format-muted": "  ",  // Doubled icon to appear bigger
+    "format-icons": {
+      "headphone": " ",
+      "hands-free": " ",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
+      "car": "",
+      "default": [" ", " ", "  "]
+    },
+    "on-click": "pamixer --toggle-mute",
+    "on-click-right": "pavucontrol -t 3",
+    "tooltip": true,
+    "tooltip-format": "{icon} {desc} | {volume}%"
+  },
+
+  "pulseaudio#mic": {
+    "format": "{format_source}",
+    "format-source": " {volume}%  ",
+    "format-source-muted": "   ",
+    "on-click": "pamixer --default-source --toggle-mute",
+    "on-click-right": "pavucontrol -t 4",
+    "on-scroll-up": "pamixer --default-source -i 5",
+    "on-scroll-down": "pamixer --default-source -d 5",
+    "tooltip-format": "{source_desc} | {source_volume}%",
+    "scroll-step": 5
+  },
+
+  "battery": {
+    "interval": 5,
+    "full-at": 100,
+    "design-capacity": false,
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon}{capacity}% ",
+    "format-charging": " {capacity}%",
+    "format-plugged": "󱘖 {capacity}%",
+    "format-alt": "{icon} {time}",
+    "format-full": "{icon} Full",
+    "format-icons": [
+      " ",  
+      " ",
+      " ",  
+      " ",  
+      " "  
+    ]
+  },
+
+
+    "network#speed": 
+    {
+      "interval": 10,
+
+      // Force only icons to show, no interface names
+      "format-wifi": " {icon} ",
+      "format-ethernet": "󰌘 ",
+      "format-disconnected": "󰌙 ",
+      "format-linked": "󰈁 ",
+
+      // Tooltip shows essid for wifi, device name for ethernet
+      "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+      "tooltip-format-ethernet": "{ifname}",
+      "tooltip-format-disconnected": "Disconnected",
+      "tooltip-format-linked": "{ifname} (No IP)",
+
+      // Icons by signal strength
+      "format-icons": [
+        "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+      ]
+    },
+
+
+  "custom/powermenu": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "exec wlogout -p layer-shell"
+  }
+}
