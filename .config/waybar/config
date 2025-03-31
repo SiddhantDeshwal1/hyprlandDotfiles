@@ -24,12 +24,13 @@
     "custom/powermenu"
   ],
 
-  "clock": {
-    "format": " 󰸗  {:%H:%M:%S} ",
-    "interval": 1,
-    "tooltip": true,
-    "tooltip-format": "{:%d %B %H:%M}"
-  },
+
+    "clock": {
+        "format": " 󰸗  {:%Y-%m-%d | %H:%M:%S} ",
+        "interval": 1,
+        "tooltip": true,
+        "tooltip-format": "{:%d %B %Y %H:%M}"
+    },
 
   "custom/separator": {
     "exec": "echo \"|\"",
@@ -113,13 +114,13 @@
 
     "network#speed": 
     {
-      "interval": 10,
+      "interval": 20,
 
       // Force only icons to show, no interface names
       "format-wifi": " {icon} ",
-      "format-ethernet": "󰌘 ",
-      "format-disconnected": "󰌙 ",
-      "format-linked": "󰈁 ",
+      "format-ethernet": " 󰌘  ",
+      "format-disconnected": "  󰌙 ",
+      "format-linked": "󰈁  ",
 
       // Tooltip shows essid for wifi, device name for ethernet
       "tooltip-format-wifi": "{essid} ({signalStrength}%)",

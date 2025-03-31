@@ -123,6 +123,8 @@ set -g tide_git_untracked_color 000000
 set -g tide_git_upstream_color 000000
 set -g tide_pwd_bg_color 444444
 
+# set -gx PATH $PATH ~/.cargo/bin
+
 #yazi
 function y
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")

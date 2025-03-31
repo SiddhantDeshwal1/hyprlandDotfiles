@@ -11,72 +11,63 @@
 ********* NOTIFICATION **********
 *********************************/
 
+.notification,
+.notification-content,
+.notification-default-action {
+  border-radius: 0;
+}
+
 .notification {
   border: none;
-  border-radius: 15px;
 }
 
 .summary {
   font-size: 16px;
 }
 
-.floating-notifications {
-  background: transparent;
-}
-
-.notification-background {
+.floating-notifications,
+.notification-background,
+.notification-content {
   background: transparent;
 }
 
 .notification-content {
-  background: transparent;
-  border-radius: 0px;
   padding: 10px;
 }
+
 .image,
 .body-image {
-  /* .image is the icon */
-  margin: 0px 5px 0px 0px;
+  margin-right: 5px;
 }
 
 .notification-default-action {
   background: @background;
-  border: 2px solid @noti-bg;
-  border-radius: 15px;
+  border: 2px solid blue;
   transition: all 0.2s ease-in-out;
 }
-.notification-default-action:not(:only-child) {
-  /* if other action options are also present */
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
-}
+
 .notification-default-action:hover {
-  border: 2px solid @noti-border-dark;
+  border-color: blue;
 }
 
 .notification-action {
   border: none;
-  border-radius: 5px;
+  border-radius: 0;
   background: @noti-bg;
 }
+
 .notification-action:hover {
   background: @noti-bg-alt;
-  border: 2px solid @noti-border-light;
-}
-.notification-action:first-child {
-  border-bottom-left-radius: 15px;
-}
-.notification-action:last-child {
-  border-bottom-right-radius: 15px;
+  border: 2px solid blue;
 }
 
 .close-button {
-  padding: 0px;
   margin: 5px;
+  padding: 0;
 }
+
 .close-button:hover {
-  box-shadow: none;
-  background: rgba(247, 118, 142, 0.5); /* TokyoNight Red color */
+  background: rgba(247, 118, 142, 0.5);
   transition: all 0.2s ease-in-out;
 }
 
@@ -86,33 +77,24 @@
 
 .control-center {
   background: @background;
-  border-radius: 15px;
+  border-radius: 0;
 }
 
-.notification-row {
+.notification-row,
+.control-center-list {
   background: transparent;
-  outline: none;
 }
 
 .time {
   color: gray;
-  margin: 3px 37px 0px 0px;
+  margin: 3px 37px 0 0;
 }
 
-.widget-buttons-grid {
-  margin-top: 15px;
-  background: @background;
-}
-.widget-volume {
-  background: @background;
-}
+.widget-buttons-grid,
+.widget-volume,
 .widget-mpris {
-  margin: 8px;
-  padding: 0px;
-  border-radius: 12px;
   background: @background;
-}
-
-.control-center-list {
-  background: transparent;
+  border-radius: 0;
+  margin: 8px 0;
+  padding: 0;
 }

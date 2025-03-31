@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the battery icon
-battery_icon="/home/siddhantdeshwal/.config/swaync/icons/battery-status.png"
+battery_icon="/home/man37/.config/swaync/icons/battery-status.png"
 
 while true; do
     # Get the battery percentage
