@@ -1,66 +1,31 @@
 {
   "layer": "top",
-  "position": "top",
-  "margin-bottom": 0,
-
   "modules-left": [
-    "clock",
-    "custom/separator",
+    "custom/launcher",
+    "custom/cpu",
+    "network",
+    "custom/memory",
+    "custom/media",
     "tray"
   ],
-
   "modules-center": [
-    "hyprland/window"
+    "hyprland/workspaces"
   ],
-
   "modules-right": [
-    "memory",
-    "cpu",
     "pulseaudio#output",
     "pulseaudio#mic",
+    "clock",
     "battery",
-    "network#speed",
-    "custom/separator",
-    "custom/powermenu"
+    "custom/power"
   ],
 
-
-    "clock": {
-        "format": " 󰸗  {:%Y-%m-%d | %H:%M:%S} ",
-        "interval": 1,
-        "tooltip": true,
-        "tooltip-format": "{:%d %B %Y %H:%M}"
-    },
-
-  "custom/separator": {
-    "exec": "echo \"|\"",
-    "format": "{}"
-  },
-
-  "tray": {
-    "icon-size": 20,
-    "spacing": 8
-  },
-
-  "hyprland/window": {
-    "format": "  {}  "
-  },
-
-  "memory": {
-    "format": "  󰫗 {}%  ",
-    "tooltip": false
-  },
-
-  "cpu": {
-    "format": " {usage}%  ",
-    "tooltip": false
-  },
+    
 
   "pulseaudio#output": {
-    "format": "{icon}{volume}%  ",
+    "format": "{icon}{volume}%",
     "format-bluetooth": "{icon} {volume}%",
     "format-bluetooth-muted": " {icon}",
-    "format-muted": "  ",  // Doubled icon to appear bigger
+    "format-muted": " ",
     "format-icons": {
       "headphone": " ",
       "hands-free": " ",
@@ -68,7 +33,11 @@
       "phone": " ",
       "portable": " ",
       "car": "",
-      "default": [" ", " ", "  "]
+      "default": [
+        " ",
+        " ",
+        "  "
+      ]
     },
     "on-click": "pamixer --toggle-mute",
     "on-click-right": "pavucontrol -t 3",
@@ -76,16 +45,40 @@
     "tooltip-format": "{icon} {desc} | {volume}%"
   },
 
+"custom/cpu": {
+  "format": " {}%",
+  "exec": "top -bn1 | grep 'Cpu(s)' | awk '{print 100 - $8}'",
+  "interval": 1
+},
+
   "pulseaudio#mic": {
     "format": "{format_source}",
-    "format-source": " {volume}%  ",
-    "format-source-muted": "   ",
+    "format-source": " {volume}%",
+    "format-source-muted": " ",
     "on-click": "pamixer --default-source --toggle-mute",
     "on-click-right": "pavucontrol -t 4",
     "on-scroll-up": "pamixer --default-source -i 5",
     "on-scroll-down": "pamixer --default-source -d 5",
     "tooltip-format": "{source_desc} | {source_volume}%",
     "scroll-step": 5
+  },
+
+  "river/tags": {
+    "num-tags": 6
+  },
+
+  "network": {
+    "tooltip": false,
+    "format-wifi": "  {essid}",
+    "format-ethernet": ""
+  },
+
+  "backlight": {
+    "tooltip": false,
+    "format": " {}%",
+    "interval": 1,
+    "on-scroll-up": "light -A 5",
+    "on-scroll-down": "light -U 5"
   },
 
   "battery": {
@@ -95,49 +88,52 @@
     "states": {
       "good": 95,
       "warning": 30,
-      "critical": 15
+      "critical": 20,
     },
-    "format": "{icon}{capacity}% ",
+    "format": "{icon}{capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": "󱘖 {capacity}%",
     "format-alt": "{icon} {time}",
     "format-full": "{icon} Full",
     "format-icons": [
-      " ",  
+      " ",
       " ",
-      " ",  
-      " ",  
-      " "  
+      " ",
+      " ",
+      " "
     ]
   },
 
+  "tray": {
+    "icon-size": 18,
+    "spacing": 10
+  },
 
-    "network#speed": 
-    {
-      "interval": 20,
+  "clock": {
+    "format": "{:%a %d/%m/%Y  %H:%M:%S}",
+    "interval": 1
+  },
 
-      // Force only icons to show, no interface names
-      "format-wifi": " {icon} ",
-      "format-ethernet": " 󰌘  ",
-      "format-disconnected": "  󰌙 ",
-      "format-linked": "󰈁  ",
+  "cpu": {
+    "format": " {}%",
+    "interval": 0.5 ,
+    // "max-length": 10
+  },
 
-      // Tooltip shows essid for wifi, device name for ethernet
-      "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-      "tooltip-format-ethernet": "{ifname}",
-      "tooltip-format-disconnected": "Disconnected",
-      "tooltip-format-linked": "{ifname} (No IP)",
+"custom/memory": {
+  "format": " {} MB",
+  "exec": "free -m | awk '/Mem:/ {print $3}'",
+  "interval": 1
+},
 
-      // Icons by signal strength
-      "format-icons": [
-        "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
-      ]
-    },
+  "custom/launcher": {
+    "format": " ",
+    "on-click": "rofi -show drun -theme ~/.config/rofi/launchers/type-3/style-3.rasi",
+    "on-click-right": "killall rofi"
+  },
 
-
-  "custom/powermenu": {
-    "format": "  ",
-    "tooltip": false,
-    "on-click": "exec wlogout -p layer-shell"
+  "custom/power": {
+    "format": "⏻ ",
+    "on-click": "wlogout"
   }
 }

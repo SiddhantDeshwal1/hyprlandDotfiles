@@ -1,0 +1,36 @@
+2025/08/08-02:59:54.728 773 Reusing MANIFEST /home/man37/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2025/08/08-02:59:54.743 773 Recovering log #20
+2025/08/08-02:59:54.744 773 Reusing old log /home/man37/.config/obsidian/Local Storage/leveldb/000020.log 
+2025/08/08-04:58:53.349 774 Level-0 table #24: started
+2025/08/08-04:58:53.361 774 Level-0 table #24: 9450 bytes OK
+2025/08/08-04:58:53.363 774 Delete type=0 #20
+2025/08/08-04:58:53.363 774 Compacting 4@0 + 1@1 files
+2025/08/08-04:58:53.367 774 Generated table #25@0: 28 keys, 1854 bytes
+2025/08/08-04:58:53.367 774 Compacted 4@0 + 1@1 files => 1854 bytes
+2025/08/08-04:58:53.368 774 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/08/08-04:58:53.368 774 Delete type=2 #14
+2025/08/08-04:58:53.368 774 Delete type=2 #17
+2025/08/08-04:58:53.368 774 Delete type=2 #19
+2025/08/08-04:58:53.369 774 Delete type=2 #21
+2025/08/08-04:58:53.369 774 Delete type=2 #24
+2025/08/08-14:47:05.550 774 Level-0 table #27: started
+2025/08/08-14:47:05.589 774 Level-0 table #27: 9237 bytes OK
+2025/08/08-14:47:05.591 774 Delete type=0 #23
+2025/08/08-16:57:36.335 774 Level-0 table #29: started
+2025/08/08-16:57:36.348 774 Level-0 table #29: 9183 bytes OK
+2025/08/08-16:57:36.349 774 Delete type=0 #26
+2025/08/11-01:26:15.470 774 Level-0 table #31: started
+2025/08/11-01:26:15.483 774 Level-0 table #31: 9358 bytes OK
+2025/08/11-01:26:15.484 774 Delete type=0 #28
+2025/08/11-03:37:21.053 774 Level-0 table #33: started
+2025/08/11-03:37:21.092 774 Level-0 table #33: 9134 bytes OK
+2025/08/11-03:37:21.094 774 Delete type=0 #30
+2025/08/11-03:37:21.094 774 Compacting 4@0 + 1@1 files
+2025/08/11-03:37:21.097 774 Generated table #34@0: 28 keys, 1853 bytes
+2025/08/11-03:37:21.098 774 Compacted 4@0 + 1@1 files => 1853 bytes
+2025/08/11-03:37:21.099 774 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/08/11-03:37:21.099 774 Delete type=2 #25
+2025/08/11-03:37:21.099 774 Delete type=2 #27
+2025/08/11-03:37:21.099 774 Delete type=2 #29
+2025/08/11-03:37:21.099 774 Delete type=2 #31
+2025/08/11-03:37:21.099 774 Delete type=2 #33

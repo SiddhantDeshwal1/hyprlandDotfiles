@@ -1,0 +1,15 @@
+2025/04/30-19:37:20.428 1f562 Reusing MANIFEST /home/man37/.config/thorium/Default/IndexedDB/https_www.codechef.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/30-19:37:20.429 1f562 Recovering log #7
+2025/04/30-19:37:20.430 1f562 Reusing old log /home/man37/.config/thorium/Default/IndexedDB/https_www.codechef.com_0.indexeddb.leveldb/000007.log 
+2025/04/30-19:56:04.983 1f563 Level-0 table #12: started
+2025/04/30-19:56:04.984 1f563 Level-0 table #12: 190 bytes OK
+2025/04/30-19:56:04.986 1f563 Delete type=0 #7
+2025/04/30-19:56:04.986 1f563 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/04/30-19:56:04.986 1f563 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 84 : 1
+2025/04/30-19:56:04.986 1f563 Compacting 1@1 + 1@2 files
+2025/04/30-19:56:04.988 1f563 Generated table #13@1: 28 keys, 645 bytes
+2025/04/30-19:56:04.988 1f563 Compacted 1@1 + 1@2 files => 645 bytes
+2025/04/30-19:56:04.989 1f563 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/30-19:56:04.989 1f563 Delete type=2 #9
+2025/04/30-19:56:04.989 1f563 Delete type=2 #12
+2025/04/30-19:56:04.989 1f563 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 84 : 1 .. (end); will stop at (end)

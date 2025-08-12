@@ -1,8 +1,9 @@
 require("siddhantdeshwal.core")
 require("siddhantdeshwal.lazy")
+require("siddhantdeshwal.core.commands")
 
 vim.opt.termguicolors = true
-vim.o.showtabline = 0
+-- vim.o.showtabline = 0
 
 vim.g.mapleader = " "
 
@@ -14,6 +15,13 @@ vim.cmd("command! Qa q")
 vim.api.nvim_set_keymap('n', '<A-j>', ':m .+1<CR>==', { noremap = true, silent = true })
 -- Move current line down
 vim.api.nvim_set_keymap('n', '<A-k>', ':m .-2<CR>==', { noremap = true, silent = true })
+
+-- Ensure Django templates are recognized as htmldjango
+vim.cmd([[
+  autocmd BufRead,BufNewFile *.html set filetype=htmldjango
+]])
+
+vim.keymap.set("n", "<leader>r", ":Runcpp<CR>", { noremap = true, silent = true }) 
 
 -- Move selected lines up in visual mode
 vim.api.nvim_set_keymap('v', '<A-j>', ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
@@ -93,19 +101,13 @@ vim.api.nvim_set_keymap('n', '<leader>js', ':!node %<CR>', { noremap = true, sil
     "#define ff first",
     "#define ss second",
     "#define pb push_back",
-    "#define mp make_pair",
-    "#define fl(i, n) for (int i = 0; i < n; i++)",
-    "#define in(v) fl(i, v.size()) cin >> v[i];",
-    '#define py cout << "YES\\n";',
-    '#define pm cout << "-1\\n";',
-    '#define pn cout << "NO\\n";',
-    '#define pimp cout << "IMPOSSIBLE\\n";',
-    "#define vr(v) v.begin(), v.end()",
-    "#define rv(v) v.end(), v.begin()",
+    "#define fl(i,start,end) for (int i = start ; i < end; i++)",
+    "#define rfl(i,start,end) for (int i = start ; i >= end; i--)",
+    "#define in(v) fl(i,0,v.size()) cin >> v[i];",
+    "#define all(v) v.begin(), v.end()",
+    "#define rall(v) v.end(), v.begin()",
     "#define csort(nums) sort(nums.begin(), nums.end());",
-    "#define sum(v) accumulate(v.begin(), v.end(), 0LL);",
     "#define int long long",
-    "#define print(x) cout << x << endl ;",
     "",
     "typedef vector<ll> vll;",
     "typedef unordered_map<ll, ll, custom_hash> safehash;",
@@ -114,24 +116,17 @@ vim.api.nvim_set_keymap('n', '<leader>js', ':!node %<CR>', { noremap = true, sil
     "template <typename T>",
     "void printvec(vector<T> v) {",
     "  ll n = v.size();",
-    "  fl(i, n) cout << v[i] << \" \";",
+    "  fl(i,0,n) cout << v[i] << \" \";",
     "  cout << \"\\n\";",
     "}",
     "template <typename T>",
     "ll sumvec(vector<T> v) {",
     "  ll n = v.size();",
     "  ll s = 0;",
-    "  fl(i, n) s += v[i];",
+    "  fl(i,0,n) s += v[i];",
     "  return s;",
     "}",
     "",
-    "ll gcd(ll a, ll b) {",
-    "  if (b == 0) return a;",
-    "  return gcd(b, a % b);",
-    "}",
-    "ll lcm(ll a, ll b) {",
-    "  return (a / gcd(a, b) * b);",
-    "}",
     "ll moduloMultiplication(ll a, ll b, ll mod) {",
     "  ll res = 0;",
     "  a %= mod;",
@@ -153,17 +148,9 @@ vim.api.nvim_set_keymap('n', '<leader>js', ':!node %<CR>', { noremap = true, sil
     "  }",
     "  return res;",
     "}",
-    "bool isPrime(ll n) {",
-    "  if (n <= 1) return false;",
-    "  if (n <= 3) return true;",
-    "  if (n % 2 == 0 || n % 3 == 0) return false;",
-    "  for (int i = 5; i * i <= n; i += 6)",
-    "    if (n % i == 0 || n % (i + 2) == 0) return false;",
-    "  return true;",
-    "}",
     "",
     "void solve() {",
-    "",
+    "    ",
     "}",
     "",
     "int32_t main() {",
@@ -181,7 +168,7 @@ vim.api.nvim_set_keymap('n', '<leader>js', ':!node %<CR>', { noremap = true, sil
 
   local bufnr = vim.api.nvim_get_current_buf()
   vim.api.nvim_buf_set_lines(bufnr, 0, 0, false, snippet)
-  vim.api.nvim_command("normal! 14k")
+  vim.cmd.normal({ "14k4l", bang = true })
   vim.api.nvim_command("startinsert!")
 end, {})
 vim.keymap.set("i", "<C-BS>", "<C-w>", { noremap = true, silent = true })
@@ -209,8 +196,8 @@ vim.api.nvim_create_user_command("Html", function()
 	vim.api.nvim_buf_set_lines(bufnr, 0, 0, false, html)
 
 	-- Move cursor 18 lines up (or down if needed)
-	vim.api.nvim_command("normal! 3k")
-
+	vim.api.nvim_command("normal! 18k")
+	vim.api.nvim_command("normal! 4l")
 	vim.api.nvim_command("startinsert!")
 end, {})
 

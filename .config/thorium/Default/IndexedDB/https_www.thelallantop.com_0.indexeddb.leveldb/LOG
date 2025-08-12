@@ -1,0 +1,13 @@
+2025/06/23-01:14:52.313 3a231 Reusing MANIFEST /home/man37/.config/thorium/Default/IndexedDB/https_www.thelallantop.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/23-01:14:52.314 3a231 Recovering log #7
+2025/06/23-01:14:52.314 3a231 Reusing old log /home/man37/.config/thorium/Default/IndexedDB/https_www.thelallantop.com_0.indexeddb.leveldb/000007.log 
+2025/06/23-01:14:52.648 3a233 Level-0 table #11: started
+2025/06/23-01:14:52.650 3a233 Level-0 table #11: 1649 bytes OK
+2025/06/23-01:14:52.651 3a233 Delete type=0 #7
+2025/06/23-01:14:52.651 3a231 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 641 : 1
+2025/06/23-01:14:52.651 3a231 Compacting 1@0 + 1@1 files
+2025/06/23-01:14:52.654 3a231 Generated table #12@0: 279 keys, 15541 bytes
+2025/06/23-01:14:52.654 3a231 Compacted 1@0 + 1@1 files => 15541 bytes
+2025/06/23-01:14:52.655 3a231 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/23-01:14:52.656 3a231 Delete type=2 #11
+2025/06/23-01:14:52.656 3a231 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 641 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

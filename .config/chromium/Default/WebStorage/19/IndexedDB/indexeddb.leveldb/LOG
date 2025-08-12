@@ -1,0 +1,5 @@
+2025/08/11-03:15:02.262 fc22a Creating DB /home/man37/.config/chromium/Default/WebStorage/19/IndexedDB/indexeddb.leveldb since it was missing.
+2025/08/11-03:15:02.266 fc22a Reusing MANIFEST /home/man37/.config/chromium/Default/WebStorage/19/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/08/11-03:15:18.915 fc22b Level-0 table #5: started
+2025/08/11-03:15:18.958 fc22b Level-0 table #5: 2126313 bytes OK
+2025/08/11-03:15:18.961 fc22b Delete type=0 #3

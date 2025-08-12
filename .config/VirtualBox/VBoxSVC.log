@@ -1,0 +1,45 @@
+00:00:00.001043 main     VirtualBox XPCOM Server 7.1.8 r168469 linux.amd64 (Apr 23 2025 07:57:44) release log
+00:00:00.001048 main     Log opened 2025-05-04T17:59:43.601075000Z
+00:00:00.001049 main     Build Type: release
+00:00:00.001053 main     OS Product: Linux
+00:00:00.001055 main     OS Release: 6.14.4-zen1-2-zen
+00:00:00.001057 main     OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Tue, 29 Apr 2025 09:23:22 +0000
+00:00:00.001107 main     DMI Product Name: Inspiron 3505
+00:00:00.001151 main     DMI Product Version: 1.27.0
+00:00:00.001164 main     Firmware type: UEFI
+00:00:00.001485 main     Secure Boot: Disabled
+00:00:00.001600 main     Host RAM: 13855MB (13.5GB) total, 11002MB (10.7GB) available
+00:00:00.001607 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001608 main     Process ID: 26145
+00:00:00.001608 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005707 main     IPC socket path: /tmp/.vbox-man37-ipc/ipcd
+00:00:00.019618 DCon01   VirtualBox: object creation starts
+00:00:00.020388 DCon01   Home directory: '/home/man37/.config/VirtualBox'
+00:00:00.039172 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.041686 DCon01   HostDnsMonitor: initializing
+00:00:00.041924 DCon01   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.041931 DCon01   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.041940 DCon01   HostDnsMonitor: updating information
+00:00:00.041951 DCon01   HostDnsMonitor: old information
+00:00:00.041954 DCon01     no server entries
+00:00:00.041957 DCon01     no domain set
+00:00:00.041959 DCon01     no search string entries
+00:00:00.041962 DCon01   HostDnsMonitor: new information
+00:00:00.041964 DCon01     server 1: 127.0.0.53
+00:00:00.041967 DCon01     domain: .
+00:00:00.041970 DCon01     search string 1: .
+00:00:00.046446 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.047085 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.048966 DCon01   VirtualBox: object created
+00:00:01.180221 DCon03   Saving settings file "/home/man37/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.183223 DCon03   Finished saving settings file "/home/man37/.config/VirtualBox/VirtualBox.xml"
+00:00:01.245678 DCon03   Saving settings file "/home/man37/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.247824 DCon03   Finished saving settings file "/home/man37/.config/VirtualBox/VirtualBox.xml"
+00:00:01.291964 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:01.717572 DCon03   Saving settings file "/home/man37/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.729712 DCon03   Finished saving settings file "/home/man37/.config/VirtualBox/VirtualBox.xml"
+00:00:08.763618 main     VirtualBox: object deletion starts
+00:00:08.764456 main     HostDnsMonitor: shutting down ...
+00:00:08.768480 main     HostDnsMonitor: shut down
+00:00:08.779387 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:08.779496 main     VirtualBox: object deleted

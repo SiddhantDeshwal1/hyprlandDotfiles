@@ -16,7 +16,7 @@ return {
 				json = { "prettier" },
 				yaml = { "prettier" },
 				markdown = { "prettier" },
-				cpp = { "astyle" },
+				cpp = { "clang-format" },
 				graphql = { "prettier" },
 				liquid = { "prettier" },
 				lua = { "stylua" },

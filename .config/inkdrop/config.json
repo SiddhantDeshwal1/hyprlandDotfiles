@@ -1,0 +1,24 @@
+{
+  "*": {
+    "core": {
+      "db": {
+        "machineId": "EzW4yLh2BMX6HE-h1Cqmz"
+      },
+      "mainWindow": {
+        "fullscreen": false,
+        "maximized": false,
+        "position": {
+          "x": 3,
+          "y": 36
+        },
+        "size": {
+          "h": 1041,
+          "w": 1914
+        }
+      }
+    },
+    "editor": {
+      "viewMode": "edit"
+    }
+  }
+}

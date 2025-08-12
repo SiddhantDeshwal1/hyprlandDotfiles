@@ -1,0 +1,6 @@
+2025/07/15-21:51:38.944 4 Reusing MANIFEST /home/man37/.config/thorium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/07/15-21:51:38.952 4 Recovering log #128
+2025/07/15-21:51:38.953 4 Reusing old log /home/man37/.config/thorium/Default/Local Storage/leveldb/000128.log 
+2025/07/15-21:53:14.451 5 Level-0 table #133: started
+2025/07/15-21:53:14.464 5 Level-0 table #133: 16279 bytes OK
+2025/07/15-21:53:14.466 5 Delete type=0 #128

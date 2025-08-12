@@ -1,0 +1,14 @@
+[global]
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+width=300
+height=100
+margin=10
+padding=10
+border-size=2
+border-radius=8
+font=JetBrainsMono Nerd Font 10
+max-history=10
+default-timeout=5000
+anchor=top-right

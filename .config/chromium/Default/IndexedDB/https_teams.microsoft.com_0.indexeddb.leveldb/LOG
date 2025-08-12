@@ -1,0 +1,37 @@
+2025/08/11-03:14:47.247 fc22a Reusing MANIFEST /home/man37/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/11-03:14:47.247 fc22a Recovering log #3
+2025/08/11-03:14:47.248 fc22a Reusing old log /home/man37/.config/chromium/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000003.log 
+2025/08/11-03:14:52.504 fc22c Level-0 table #5: started
+2025/08/11-03:14:52.508 fc22c Level-0 table #5: 75396 bytes OK
+2025/08/11-03:14:52.509 fc22c Delete type=0 #3
+2025/08/11-03:14:52.510 fc22a Manual compaction at level-0 from '\x000\x00\x00\x00' @ 72057594037927935 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/11-03:14:56.063 fc239 Level-0 table #7: started
+2025/08/11-03:14:56.071 fc239 Level-0 table #7: 293759 bytes OK
+2025/08/11-03:14:56.072 fc239 Delete type=0 #4
+2025/08/11-03:14:56.073 fc22c Manual compaction at level-0 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/11-03:14:56.073 fc22b Manual compaction at level-1 from '\x00\x10\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at '\x00Y\x00\x00\xc8\x16\x00c\x00a\x00l\x00l\x00-\x00h\x00i\x00s\x00t\x00o\x00r\x00y\x00-\x00v\x00o\x00i\x00c\x00e\x00m\x00a\x00i\x00l' @ 8009 : 1
+2025/08/11-03:14:56.073 fc22b Compacting 1@1 + 1@2 files
+2025/08/11-03:14:56.082 fc22b Generated table #8@1: 2678 keys, 188414 bytes
+2025/08/11-03:14:56.083 fc22b Compacted 1@1 + 1@2 files => 188414 bytes
+2025/08/11-03:14:56.083 fc22b compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/11-03:14:56.084 fc22b Delete type=2 #7
+2025/08/11-03:14:56.084 fc22b Manual compaction at level-1 from '\x00Y\x00\x00\xc8\x16\x00c\x00a\x00l\x00l\x00-\x00h\x00i\x00s\x00t\x00o\x00r\x00y\x00-\x00v\x00o\x00i\x00c\x00e\x00m\x00a\x00i\x00l' @ 8009 : 1 .. '\x00\x11\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/11-03:15:00.169 fc22b Level-0 table #10: started
+2025/08/11-03:15:00.217 fc22b Level-0 table #10: 1896322 bytes OK
+2025/08/11-03:15:00.220 fc22b Delete type=2 #5
+2025/08/11-03:15:00.220 fc22b Delete type=0 #6
+2025/08/11-03:15:00.310 fc22a Compacting 1@1 + 1@2 files
+2025/08/11-03:15:00.332 fc22a Generated table #11@1: 3633 keys, 996899 bytes
+2025/08/11-03:15:00.332 fc22a Compacted 1@1 + 1@2 files => 996899 bytes
+2025/08/11-03:15:00.333 fc22a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/11-03:15:00.402 fc22b Level-0 table #13: started
+2025/08/11-03:15:00.426 fc22b Level-0 table #13: 1901328 bytes OK
+2025/08/11-03:15:00.429 fc22b Delete type=2 #8
+2025/08/11-03:15:00.429 fc22b Delete type=0 #9
+2025/08/11-03:15:00.429 fc22b Delete type=2 #10
+2025/08/11-03:15:00.479 fc22b Compacting 1@1 + 1@2 files
+2025/08/11-03:15:00.504 fc22b Generated table #14@1: 3402 keys, 992255 bytes
+2025/08/11-03:15:00.504 fc22b Compacted 1@1 + 1@2 files => 992255 bytes
+2025/08/11-03:15:00.505 fc22b compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/11-03:15:00.506 fc22b Delete type=2 #11
+2025/08/11-03:15:00.506 fc22b Delete type=2 #13

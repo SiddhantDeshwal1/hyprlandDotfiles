@@ -1,0 +1,18 @@
+[2025-04-27 20:18:57.645] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2025-04-27 20:18:58.432] [info]  Saving backups to /home/man37/.config/superProductivity/backups
+[2025-04-27 20:18:59.842] [info]  No custom styles detected at /home/man37/.config/superProductivity/styles.css
+[2025-04-27 20:36:05.291] [info]  close, isQuiting: undefined
+[2025-04-27 20:36:05.295] [info]  Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2025-04-27 20:36:05.300] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT []
+[2025-04-27 20:36:05.301] [info]  close, isQuiting: undefined
+[2025-04-27 20:36:05.304] [info]  close, isQuiting: true
+[2025-04-27 20:36:05.312] [info]  Quit after all windows being closed
+[2025-04-27 23:51:12.197] [info]  { enabled: null, showDevTools: false, mode: 'bottom' }
+[2025-04-27 23:51:12.967] [info]  Saving backups to /home/man37/.config/superProductivity/backups
+[2025-04-27 23:51:14.369] [info]  No custom styles detected at /home/man37/.config/superProductivity/styles.css
+[2025-04-27 23:58:33.460] [info]  close, isQuiting: undefined
+[2025-04-27 23:58:33.464] [info]  Actions to wait for  [ 'FINISH_DAY_BEFORE_CLOSE_EFFECT' ]
+[2025-04-27 23:58:33.468] [info]  BEFORE_CLOSE_DONE FINISH_DAY_BEFORE_CLOSE_EFFECT []
+[2025-04-27 23:58:33.469] [info]  close, isQuiting: undefined
+[2025-04-27 23:58:33.471] [info]  close, isQuiting: true
+[2025-04-27 23:58:33.479] [info]  Quit after all windows being closed

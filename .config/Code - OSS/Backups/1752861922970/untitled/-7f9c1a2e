@@ -1,0 +1,44 @@
+untitled:Untitled-1 {"typeId":""}
+# Hello World 
+
+Variable : A var is a reference/pointer to a data object
+
+-- PEP8 recommends snake_case for variables and function_name
+
+Dynamic Typing : Data type is determined during runtime based on type of object it references. A variable can be reassigned to an object of a different type at any point in the program.
+
+	a = 10
+	a = "HELLO"
+
+==NOTE== : 
+Initializing variables is must.This will raise a NameError, as the interpreter cannot find the name in any of the accessible scopes. It is crucial to always initialize a variable by assigning it a value before its first use
+
+
+# Data Types
+
+Data types are classifications that instruct the interpreter on how to store, interpret, and operate on data.
+
+In Python's object-oriented model, these data types are implemented as classes, and variables are instances (objects) of these classes 
+
+In python Everything is a object.
+
+- Numeric : int,float,complex
+- sequence : list,string,tuple
+- mapping : dict
+- set : set,frozenset
+- boolean : bool
+
+###### Numeric
+
+int : arbitary` precision (no max limit) , time on operations increases with increase in precision
+
+float : 64bit (8 byte)
+complex : 128bit 
+
+##### Sequence Type 
+
+- List : mutable ordered sequence
+
+![[Pasted image 20250718174015.png]]
+
+- Tuple : like list , but immutable

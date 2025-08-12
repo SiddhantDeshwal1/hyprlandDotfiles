@@ -30,12 +30,14 @@ return {
 				"clangd",
 				"cssls",
 				"tailwindcss",
+                "jedi_language_server", -- for Python/Django
 				"svelte",
 				"lua_ls",
 				"graphql",
 				"emmet_ls",
 				"prismals",
 				"pyright",
+                "marksman",
 			},
 		})
 		mason_tool_installer.setup({
@@ -53,6 +55,8 @@ return {
           "shellcheck",   -- shell linter
           "jsonlint",     -- optional JSON linter
           "yamllint",     -- optional YAML linter
+          "djlint",
+          "mypy",
         },
 		})
 	end,

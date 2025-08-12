@@ -1,0 +1,148 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="1" l="1746901552010" />
+    </e>
+    <e n="ChangeLaf">
+      <i c="1" l="1746901300069" />
+    </e>
+    <e n="ChangeView">
+      <i c="2" l="1746901455288" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="159" l="1746902576865" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="1" l="1746902077046" />
+    </e>
+    <e n="EditorCodeBlockEnd">
+      <i c="1" l="1746902030451" />
+    </e>
+    <e n="EditorCopy">
+      <i c="5" l="1746902416128" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="50" l="1746902054384" />
+    </e>
+    <e n="EditorDown">
+      <i c="10" l="1746902072645" />
+    </e>
+    <e n="EditorEnter">
+      <i c="22" l="1746902570478" />
+    </e>
+    <e n="EditorEscape">
+      <i c="2" l="1746901838886" />
+    </e>
+    <e n="EditorLeft">
+      <i c="34" l="1746902558759" />
+    </e>
+    <e n="EditorLineEnd">
+      <i c="7" l="1746902395333" />
+    </e>
+    <e n="EditorPaste">
+      <i c="2" l="1746901933012" />
+    </e>
+    <e n="EditorRight">
+      <i c="43" l="1746902570032" />
+    </e>
+    <e n="EditorUp">
+      <i c="5" l="1746902093034" />
+    </e>
+    <e n="Exit">
+      <i c="2" l="1750344036856" />
+    </e>
+    <e n="ExpandRegion">
+      <i c="2" l="1746901296492" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="14" l="1746902557626" />
+    </e>
+    <e n="Jupyter.AboveCodeCellAdditionalToolbar.Ellipsis">
+      <i c="1" l="1746901286161" />
+    </e>
+    <e n="JupyterEditorRightToolbarAdditionalActions">
+      <i c="2" l="1746901473615" />
+    </e>
+    <e n="JupyterInterruptKernelAction">
+      <i c="30" l="1746902327105" />
+    </e>
+    <e n="JupyterPyOpenConsoleAction">
+      <i c="1" l="1746901479047" />
+    </e>
+    <e n="JupyterSelectSourceAction">
+      <i c="5" l="1746902415753" />
+    </e>
+    <e n="NewElement">
+      <i c="1" l="1746900947539" />
+    </e>
+    <e n="NewJupyterNotebookAction">
+      <i c="1" l="1746900950498" />
+    </e>
+    <e n="NotebookCellBorderInsertMarkdownCellAboveNewAction">
+      <i c="1" l="1746901288768" />
+    </e>
+    <e n="NotebookDeleteCellAction">
+      <i c="3" l="1746902489399" />
+    </e>
+    <e n="NotebookInsertCellBelowNewAction">
+      <i c="7" l="1746902506633" />
+    </e>
+    <e n="NotebookInsertMarkdownCellBelowNewAction">
+      <i c="3" l="1746902486968" />
+    </e>
+    <e n="NotebookRunAllAction">
+      <i c="3" l="1746902463680" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="6" l="1750344026112" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="3" l="1746901189826" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1746901535999" />
+    </e>
+    <e n="ToggleDistractionFreeMode">
+      <i c="2" l="1746901527521" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="2" l="1746901678048" />
+    </e>
+    <e n="TrialStateWidget">
+      <i c="1" l="1746900863233" />
+    </e>
+    <e n="com.intellij.ide.actions.QuickChangeLookAndFeel$1">
+      <i c="1" l="1746901304986" />
+    </e>
+    <e n="com.intellij.notebooks.visualization.ui.EditorCellRunGutterButton$RunCellGutterAction">
+      <i c="20" l="1746902580338" />
+    </e>
+    <e n="com.intellij.notebooks.visualization.ui.EditorCellRunGutterButton$StopCellExecutionGutterAction">
+      <i c="24" l="1746902267740" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1746893068893" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="1" l="1746901515980" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="3" l="1746902299453" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="4" l="1746902336308" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1750344034069" />
+    </e>
+    <e n="com.intellij.pycharm.community.ide.impl.miscProject.impl.PyMiscFileAction">
+      <i c="1" l="1746900849545" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1746901412044" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="2" l="1746901679869" />
+    </e>
+  </component>
+</application>

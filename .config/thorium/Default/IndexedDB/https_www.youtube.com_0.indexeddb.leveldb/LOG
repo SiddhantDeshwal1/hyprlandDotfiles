@@ -1,0 +1,12 @@
+2025/07/09-20:46:26.381 52f25 Reusing MANIFEST /home/man37/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/09-20:46:26.382 52f25 Recovering log #7
+2025/07/09-20:46:26.408 52f25 Reusing old log /home/man37/.config/thorium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2025/07/09-20:46:30.011 52f24 Level-0 table #12: started
+2025/07/09-20:46:30.030 52f24 Level-0 table #12: 1623802 bytes OK
+2025/07/09-20:46:30.033 52f24 Delete type=0 #7
+2025/07/09-20:51:31.231 52f24 Compacting 1@1 + 1@2 files
+2025/07/09-20:51:31.255 52f24 Generated table #13@1: 325 keys, 83221 bytes
+2025/07/09-20:51:31.256 52f24 Compacted 1@1 + 1@2 files => 83221 bytes
+2025/07/09-20:51:31.257 52f24 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/09-20:51:31.259 52f24 Delete type=2 #9
+2025/07/09-20:51:31.259 52f24 Delete type=2 #12

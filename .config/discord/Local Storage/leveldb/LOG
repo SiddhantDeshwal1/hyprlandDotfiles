@@ -1,0 +1,28 @@
+2025/07/24-17:33:38.908 18054a Reusing MANIFEST /home/man37/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/07/24-17:33:38.922 18054a Recovering log #19
+2025/07/24-17:33:38.922 18054a Reusing old log /home/man37/.config/discord/Local Storage/leveldb/000019.log 
+2025/07/24-17:37:44.653 18054b Level-0 table #23: started
+2025/07/24-17:37:44.725 18054b Level-0 table #23: 1558385 bytes OK
+2025/07/24-17:37:44.728 18054b Delete type=0 #19
+2025/07/24-17:41:47.049 18054b Level-0 table #25: started
+2025/07/24-17:41:47.093 18054b Level-0 table #25: 1541258 bytes OK
+2025/07/24-17:41:47.096 18054b Delete type=0 #22
+2025/07/24-17:41:47.098 18054b Compacting 4@0 + 1@1 files
+2025/07/24-17:41:47.192 18054b Generated table #26@0: 106 keys, 3092001 bytes
+2025/07/24-17:41:47.195 18054b Generated table #27@0: 19 keys, 11178 bytes
+2025/07/24-17:41:47.195 18054b Compacted 4@0 + 1@1 files => 3103179 bytes
+2025/07/24-17:41:47.196 18054b compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/07/24-17:41:47.197 18054b Delete type=2 #16
+2025/07/24-17:41:47.197 18054b Delete type=2 #18
+2025/07/24-17:41:47.197 18054b Delete type=2 #20
+2025/07/24-17:41:47.197 18054b Delete type=2 #23
+2025/07/24-17:41:47.197 18054b Delete type=2 #25
+2025/07/25-01:53:23.259 18054b Level-0 table #29: started
+2025/07/25-01:53:23.271 18054b Level-0 table #29: 23925 bytes OK
+2025/07/25-01:53:23.273 18054b Delete type=0 #24
+2025/07/25-19:48:22.030 18054b Level-0 table #31: started
+2025/07/25-19:48:22.078 18054b Level-0 table #31: 1544623 bytes OK
+2025/07/25-19:48:22.080 18054b Delete type=0 #28
+2025/07/26-20:47:26.026 18054b Level-0 table #33: started
+2025/07/26-20:47:26.080 18054b Level-0 table #33: 1548378 bytes OK
+2025/07/26-20:47:26.082 18054b Delete type=0 #30

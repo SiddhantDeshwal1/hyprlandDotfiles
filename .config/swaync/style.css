@@ -37,12 +37,13 @@
 
 .image,
 .body-image {
-  margin-right: 5px;
+  margin-right: 20px;
+  border-radius: 1;
 }
 
 .notification-default-action {
   background: @background;
-  border: 2px solid blue;
+  border: 3px solid green;
   transition: all 0.2s ease-in-out;
 }
 
@@ -69,6 +70,7 @@
 .close-button:hover {
   background: rgba(247, 118, 142, 0.5);
   transition: all 0.2s ease-in-out;
+  border: 2px solid red;
 }
 
 /********************************

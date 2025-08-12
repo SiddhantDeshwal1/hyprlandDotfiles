@@ -1,0 +1,20 @@
+00:00:00.465605 VirtualBox GUI VM Selector Window 7.1.8 r168469 linux.amd64 (Apr 23 2025 07:57:44) release log
+00:00:00.465609 Log opened 2025-05-04T17:59:43.924828000Z
+00:00:00.465610 Build Type: release
+00:00:00.465614 OS Product: Linux
+00:00:00.465616 OS Release: 6.14.4-zen1-2-zen
+00:00:00.465618 OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Tue, 29 Apr 2025 09:23:22 +0000
+00:00:00.465676 DMI Product Name: Inspiron 3505
+00:00:00.465703 DMI Product Version: 1.27.0
+00:00:00.465717 Firmware type: UEFI
+00:00:00.466024 Secure Boot: Disabled
+00:00:00.466139 Host RAM: 13855MB (13.5GB) total, 11003MB (10.7GB) available
+00:00:00.466145 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.466146 Process ID: 26129
+00:00:00.466147 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.466265 Qt version: 6.9.0
+00:00:00.468521 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.473542 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.473587 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.823020 GUI: UICommon: Handling aboutToQuit request..
+00:00:03.930155 GUI: UICommon: aboutToQuit request handled!
